@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd;
+}
+header {
+    background: linear-gradient(to right, #0d47a1, #42a5f5);
+    color: #fff;
+    padding: 30px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+nav {
+    background: #0d47a1;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+nav a:hover {
+    background-color: #1565c0;
+    transform: scale(1.1);
+}
+.card {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.bio-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.bio-card img {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.bio-card img:hover {
+    transform: scale(1.1);
+}
+.bio-card .bio-desc {
+    max-width: 500px;
+    padding: 10px;
+}
+.bio-card .bio-desc p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+h1, h2, h3 {
+    color: #0d47a1;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+li i {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #1565c0;
+}
+.footer {
+    background: linear-gradient(to right, #0d47a1, #42a5f5);
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.contact-links {
+    text-align: center;
+    margin: 20px 0;
+}
+.contact-links a {
+    color: #1565c0;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: transform 0.3s;
+}
+.contact-links a:hover {
+    transform: scale(1.2);
+    color: #0d47a1;
+}
